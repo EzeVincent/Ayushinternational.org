@@ -1,0 +1,150 @@
+.about-heading{
+  background: url(images/Ayush-flier1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+  min-height: 70vh;
+  margin-top: 100px;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  z-index: 5;
+}
+
+
+
+.about2{
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: var(--secondary-color);
+   width: 100%;
+   margin-left: 0px;
+   margin-bottom: 100px;
+   z-index: 100;
+}
+.about2 div{
+  flex: 1;
+  min-height: 250px;
+  max-height: 500px;
+  height: 100%;
+  width: auto;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -80px;
+  border: solid;
+  border-width: 8px;
+  border-color: var(--secondary-color);
+  cursor: pointer;
+  padding: 10px;
+}
+@media (max-width: 800px) {
+  .about2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .about2 div{
+    margin-top: -50px;
+    margin-bottom: 80px;
+    max-width: 500px;
+  }
+}
+.about2 div:hover{
+  color: var(--text-color);
+
+}
+.about2 h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rule{
+  width: auto;
+  height: 3px;
+  background-color: var(--text-color);
+  border: none;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-self: center;
+
+}
+.about2 p{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.about2 li{
+  margin-left: 25px;
+}
+
+.certs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  padding: 5px;
+  padding: 20px;
+}
+.certs-holder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20px;
+  min-width: 340px;
+  height: auto;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 15px rgb(48, 49, 49, 0.9);
+}
+.cert1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 280px;
+  height: 340px;
+  margin: 15px;
+  box-shadow: 0 0 15px rgb(48, 49, 49, 0.9);
+}
+.cert1 img{
+  width: 250px;
+  height: 330px;
+  box-shadow: 0 0 15px rgb(48, 49, 49, 0.9);
+}
+.cert2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 310px;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 0 15px rgb(48, 49, 49, 0.9);
+}
+.cert2 img{
+  height: 200px;
+  width: 290px;
+  box-shadow: 0 0 15px rgb(48, 49, 49, 0.9);
+}

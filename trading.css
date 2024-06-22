@@ -1,0 +1,248 @@
+
+/*
+clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); for our team image
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); square
+clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); rabbet
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); star
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); comment
+*/
+.trading-heading{
+    background: url(images/trading.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    z-index: 5;
+  }
+
+
+  
+  .trading{
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.trading1{
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   min-width: 300px;
+}
+.trading2{
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-width: 300px;
+}
+.trading2 img{
+    width: 70%;
+    height: 70%;
+    min-width: 290px;
+    min-height: 290px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+  .trading1 h2{
+    margin: 10px;
+    
+  }
+  .trading1 h2 .ab1{
+    font-size: 16px;
+    font-family: cursive;
+  }
+  .trading1 h2 .ab2{
+    font-size: 26px;
+    color: var(--primary-color);
+
+  }
+  .trading1 p{
+    margin: 10px;
+    letter-spacing: normal;
+    line-height: 23px;
+  }
+  .trading1 button{
+   
+      color: var(--primary-color);
+      font-size: 12px;
+      background-color: var(--secondary-color);
+      border: 2px solid var(--primary-color);
+      padding: 4px 6px;
+      height: 30px;
+      align-items: center;
+      margin-left: 0px;
+      margin-top: 20px;
+      justify-content: center;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: ease-in-out;
+      transition-duration: 0.3s;
+      min-width: 80px;
+      overflow: none;
+      position: relative;
+      border-radius: 5px;
+      color: var(--text-color);
+      font-size: 16px;
+  }
+  .trading1 button:hover{
+      box-shadow: 0 0 10px var(--primary-color);
+      border: 3px solid var(--primary-color);
+  }
+
+
+
+
+
+  
+  .trading-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    padding-right: 10px;
+    margin: 20px;
+  }
+
+.trade{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 90%;
+    margin: 15px;
+    min-width: 300px;
+    height: auto;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgb(48, 49, 49, 0.9);
+    transition: ease;
+    transition-duration: 1s;
+  }
+  .trading-item:hover .trade{
+    background-color: var(--primary-color);
+  }
+  .trading-item:hover h2{
+    color: var(--secondary-color);
+  }
+  .trading-item:hover li{
+    color: var(--secondary-color);
+  }
+ 
+  .trade h2{
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--primary-color);
+  }
+  
+  .trade-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .trade-container-left{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .trade-container-left img{
+    width: 270px;
+    height: 270px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  }
+  
+  
+  .trade-container-right{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  
+  .trade-container-right li{
+    margin: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .trade-container-right ul{
+    margin-left: 15px;
+  }
+  .trade-container-right li ul{
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  
+  
+  .trade-container-right button{
+    overflow: none;
+    color: black;
+    background-color: var(--cta-color);
+    padding: 4px 6px;
+    border-radius: 5px;
+    min-height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+    font-size: 16px;
+    width: 90%;
+    min-width: 80px;
+    transition: ease;
+    animation-name: apeared22;
+    animation-timing-function: 1s;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    transition-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    font-weight: bold;
+  }
+  @keyframes apeared22{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+  }
+  
+  .trade-container-right button:hover{
+    box-shadow: 0 0 20px  rgba(204, 219, 204, 0.6);
+  }
+  

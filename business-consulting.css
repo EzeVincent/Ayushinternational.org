@@ -1,0 +1,288 @@
+
+.business-consulting-heading{
+  background: url(images/business_advisory.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+  min-height: 70vh;
+  margin-top: 100px;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  z-index: 5;
+}
+
+.consulting-hero{
+  width: 100%;
+  height: 100%;
+  min-height: 70vh;
+  background-color:  rgba(5, 5, 5, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.consulting-hero h1{
+  color:  var(--secondary-color);
+  text-align: center;
+  font-size: 40px;
+  overflow: none;
+  margin: 10px;
+  transition: ease;
+  animation-name: bouncedd;
+  animation-timing-function: 5s;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  transition-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+
+}
+@keyframes bouncedd {
+  0%
+  {
+      transform: translateY(-200px); opacity: 1;
+  }
+  20%,60%{
+      transform: translateY(0); opacity: 1;
+  }
+  40% {
+      transform: translateY(-30px); opacity: 1;
+  }
+  80% {
+      transform: translateY(-15px); opacity: 1;
+  }
+  100% {
+      transform: translateY(0); opacity: 1;
+  }
+}
+
+.consulting-hero p{
+  color: var(--secondary-color);
+  text-align: center;
+  margin: 15px;
+  font-size: 18px;
+  width: auto;
+  max-width: 700px;
+  transition: ease;
+  animation-name: apear;
+  animation-timing-function: 2s;
+  animation-duration: 1s;
+  animation-delay: 1.7s;
+  transition-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes apear {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+  
+}
+  /*THE IDs*/
+#Food-and-Beverages-industry{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-right: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+#Pharmaceutical-industry{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-right: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+#Perfumes-and-Cosmetics-industries-consulting{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-right: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+#Supply-Chain-Management-Consulting{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-right: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+#Packaging-Industry-Consulting{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-right: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+#Plastics-Industry-Consulting{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+
+
+
+
+
+.consulting{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 10px;
+  min-width: 300px;
+  height: auto;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px rgb(48, 49, 49, 0.9);
+}
+.consulting h2{
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.consulting-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.consulting-container-left{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 360px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.consulting-container-left img{
+  width: 310px;
+  height: 310px;
+}
+
+
+.consulting-container-right{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 360px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.consulting-container-right p{
+  margin: 10px;
+  font-weight: bold;
+}
+
+.consulting-container-right li{
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+
+.consulting-container-right button{
+  overflow: none;
+  color: black;
+  background-color: var(--cta-color);
+  padding: 4px 6px;
+  border-radius: 5px;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  margin: 10px;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.1s;
+  font-size: 12px;
+  width: 90%;
+  min-width: 80px;
+  transition: ease;
+  animation-name: apeared22;
+  animation-timing-function: 1s;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  transition-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes apeared22{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+  
+}
+
+.consulting-container-right button:hover{
+  box-shadow: 0 0 20px  rgba(19, 156, 19, 0.6);
+}
+
+.last-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 10px;
+}
+.last-sec p{
+  max-width: 600px;
+  font-size: 16px;
+  text-align: center;
+  
+}
